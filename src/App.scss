@@ -1,0 +1,43 @@
+@import './Assets/scss/colors.scss';
+
+
+body{
+    background-color: darkorchid;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+.input{
+    border: none;
+    background-color: #12f5e2;
+    width: 600px;
+    height: 100px;
+    margin-left: 393px;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+.math-todo{
+    font-size: 35px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.all-button, .completed-button, .uncompleted-button{
+    width: 100px;
+	height: 50px;
+	border: none;
+	background-color:#00ffdd;
+	border-radius: 20px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 500;
+}
+.buttons{
+    margin-left: 493px;
+}

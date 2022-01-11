@@ -1,0 +1,32 @@
+@import '../../Assets/scss/colors.scss';
+
+.todo {
+	&--inactive {
+		text-decoration: line-through;
+		color: green;
+	}
+}
+.list{
+	list-style-type: none;
+    background-color: #ffffff;
+    width: 400px;
+    height: 50px;
+    margin-left: 450px;   
+    font-size: 40px;
+    border-radius: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.todo-delate{
+	width: 100px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: none;
+	background-color:orangered;
+	border-radius: 10px;
+}
+.todo-chek{
+	width: 40px;
+	height: 40px;
+}
